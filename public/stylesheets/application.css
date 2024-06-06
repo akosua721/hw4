@@ -1,0 +1,19 @@
+.bg-light{
+  background-color: white !important;
+}
+
+/* Custom header font style */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Arial', sans-serif; /* Replace with your desired font */
+}
+
+/* Custom button style */
+.btn-custom {
+  border-radius: 0; /* Removes rounded corners */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Adds a shadow */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.btn-custom:hover {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4); /* Shadow on hover */
+}
