@@ -1,6 +1,5 @@
 class PlacesController < ApplicationController
   before_action :set_user, only: [:show, :new]
-  before_action :authenticate_user!, except: [:index, :show]
 
   def index
     @places = Place.all
@@ -20,6 +19,7 @@ class PlacesController < ApplicationController
       redirect_to "/login"
     end
   end
+
 
   def new
     @place = Place.new
